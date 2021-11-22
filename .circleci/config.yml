@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /go/src/github/nickalie/go-mozjpegbin
+    working_directory: /go/src/github/xiefulaithu/go-mozjpegbin
     docker:
       - image: golang
     steps:
@@ -16,9 +16,9 @@ jobs:
       - run: go test -v -coverprofile=coverage.txt -covermode=atomic ./...
       - run: curl -s https://codecov.io/bash | bash
       - run: |
-          curl -u ${CIRCLE_API_TOKEN}: -d build_parameters[CIRCLE_JOB]=build_alpine https://circleci.com/api/v1.1/project/github/nickalie/go-mozjpegbin/tree/master
+          curl -u ${CIRCLE_API_TOKEN}: -d build_parameters[CIRCLE_JOB]=build_alpine https://circleci.com/api/v1.1/project/github/xiefulaithu/go-mozjpegbin/tree/master
   build_alpine:
-    working_directory: /go/src/github/nickalie/go-mozjpegbin
+    working_directory: /go/src/github/xiefulaithu/go-mozjpegbin
     docker:
      - image: golang:alpine
     steps:

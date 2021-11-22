@@ -1,13 +1,13 @@
 # JPEG Encoder for Golang
 
-[![](https://img.shields.io/badge/docs-godoc-blue.svg)](https://godoc.org/github.com/nickalie/go-mozjpegbin)
-[![](https://circleci.com/gh/nickalie/go-mozjpegbin.png?circle-token=bf2a63a9ecd6ca6f4c4d81028d710cb847e58695)](https://circleci.com/gh/nickalie/go-mozjpegbin)
+[![](https://img.shields.io/badge/docs-godoc-blue.svg)](https://godoc.org/github.com/xiefulaithu/go-mozjpegbin)
+[![](https://circleci.com/gh/xiefulaithu/go-mozjpegbin.png?circle-token=bf2a63a9ecd6ca6f4c4d81028d710cb847e58695)](https://circleci.com/gh/xiefulaithu/go-mozjpegbin)
 
 MozJPEG Encoder for Golang based on unofficial mozjpeg distribution
 
 ## Install
 
-```go get -u github.com/nickalie/go-mozjpegbin```
+```go get -u github.com/xiefulaithu/go-mozjpegbin```
 
 ## Example of usage
 
@@ -19,7 +19,7 @@ import (
 	"image/color"
 	"log"
 	"os"
-	"github.com/nickalie/go-mozjpegbin"
+	"github.com/xiefulaithu/go-mozjpegbin"
 )
 
 func main() {

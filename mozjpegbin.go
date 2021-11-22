@@ -2,7 +2,7 @@ package mozjpegbin
 
 import (
 	"bytes"
-	"github.com/nickalie/go-binwrapper"
+	"github.com/xiefulaithu/go-binwrapper"
 	"image"
 	"image/jpeg"
 	"io"

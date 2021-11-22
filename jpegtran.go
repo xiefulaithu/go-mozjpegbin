@@ -3,7 +3,7 @@ package mozjpegbin
 import (
 	"errors"
 	"fmt"
-	"github.com/nickalie/go-binwrapper"
+	"github.com/xiefulaithu/go-binwrapper"
 	"io"
 )
 
